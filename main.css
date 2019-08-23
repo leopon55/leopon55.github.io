@@ -1,0 +1,27 @@
+body { 
+    width: 600px; text-align: left; margin-left: auto; margin-right: auto; 
+}
+    
+textarea { 
+    width: 100%; 
+    /* pxで書くと固定だけど、%でかけば、端末ごとにちょうどいいサイズで開ける */
+}
+
+table { 
+    width: 100%;
+}
+
+table tr { 
+    background-color: lightgray; 
+}
+
+table th { 
+    padding: 0.5em; 
+    background-color: darkgray; 
+}
+
+table td { 
+    padding: 0.5em; 
+    vertical-align: top; 
+}
+
