@@ -1,14 +1,44 @@
 body { 
-    width: 600px; text-align: left; margin-left: auto; margin-right: auto; 
+    width: 800px; text-align: left; margin-left: auto; margin-right: auto; 
 }
     
-textarea { 
-    width: 100%; 
-    /* pxで書くと固定だけど、%でかけば、端末ごとにちょうどいいサイズで開ける */
+h1{
+    background-color: lightskyblue; 
+}
+h2{
+    background-color: khaki
+}
+h3{
+    font-size: 24px;
+}
+ul{
+    background-color: lightskyblue; 
+}
+.uenolink{
+    color: green; 
+    /* ↑実行されない...（aとかでやればいけるけど、tableのを変えたくない） (下はいける)*/
+    font-size: 20px;
+}
+
+section {
+    /* ---　記事の背景色 --- */
+    background: lightskyblue;
+    border: 1px solid #ddd;
+    margin: 20px auto;
+    box-shadow: 0 1px 0 #fff inset;
+    width: 100%;
+      /* pxで書くと固定だけど、%でかけば、端末ごとにちょうどいいサイズで開ける */
+    padding: 20px 20px 10px;
+    box-sizing: border-box;
+    position: relative;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+    font-size: 18px;
 }
 
 table { 
     width: 100%;
+    font-size:17px;
+
 }
 
 table tr { 
